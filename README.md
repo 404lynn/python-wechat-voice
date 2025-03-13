@@ -1,4 +1,4 @@
-# python--
+# python--微信语音-WeChatvoice
 使用python对微信数据库的一些获取
 # 编码格式
 微信的语音文件虽然扩展名为.amr，但内部却用的SILK编码格式：
