@@ -3,9 +3,8 @@
 # 编码格式
 微信的语音文件虽然扩展名为.amr，但内部却用的SILK编码格式：
 ![alt text](image.png)
-所以先将这个amr的改为正确的silk格式写入silk的空文件中  
-
-def modify_binary_data(data):  
+所以先将这个amr的改为正确的silk格式写入silk的空文件中
+  def modify_binary_data(data):  
 
     new_header = b'\xFF\xFF'  # 23 21 41 4D 52 0A  
 
@@ -27,8 +26,9 @@ found_file为获取的语音文件
 
 此时就获取了正确编码的silk格式微信语音  
 
-# 后续就随意转格式为需要的。
-duration = pilk.decode("modified_amr_file.silk", "test.pcm")#转pcm
+# 后续就随意转格式为需要的。  
+
+duration = pilk.decode("modified_amr_file.silk", "test.pcm")#转pcm  
 pcm_file = 'test.pcm'
 music1 = pcm_file
 silk_file = 'modified_amr_file.silk'
