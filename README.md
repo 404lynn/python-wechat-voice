@@ -119,8 +119,10 @@ found_file为获取的语音文件
     
     这个定时任务，每分钟以root执行py
     * * * * * sudo python 0/fasong.py
-
     好啦，在安卓执行py并将微信的数据库带到服务器就完成了
     服务器代码为jiwwx.py
     安卓的定时代码为fasong.py
     都怪微信一直封，搞得这么麻烦还不好维护
+#整体获取流程
+<img width="1269" height="801" alt="企业微信截图_17689660305116" src="https://github.com/user-attachments/assets/82b9a340-b19c-49d0-bd11-fa6bde5e9714" />
+
