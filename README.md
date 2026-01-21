@@ -126,3 +126,18 @@ found_file为获取的语音文件
 #整体获取流程
 <img width="1269" height="801" alt="企业微信截图_17689660305116" src="https://github.com/user-attachments/assets/82b9a340-b19c-49d0-bd11-fa6bde5e9714" />
 
+#微信朋友圈获取
+找到安卓微信路径下SnsMicroMsg.db 
+
+找到表 SnsInfo
+
+<img width="1097" height="832" alt="image" src="https://github.com/user-attachments/assets/981b79a6-9fe5-4c1c-8e39-755a1d8b4683" />
+此为加密字段--使用通用方法解密
+<img width="752" height="674" alt="image" src="https://github.com/user-attachments/assets/72e0c4d8-1df3-493e-9445-d0a28ca40c1c" />
+解密结果为
+<img width="986" height="749" alt="image" src="https://github.com/user-attachments/assets/ea905a8a-48e2-4bf0-97b3-907f3f8eacf8" />
+整体流程
+<img width="1222" height="777" alt="image" src="https://github.com/user-attachments/assets/95e4e02b-bcb2-4a4c-a1a9-8bc4b71ba909" />
+
+
+
